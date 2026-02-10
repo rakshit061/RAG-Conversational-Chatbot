@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
+groq_api_key=st.secrets["GROQ_API_KEY"]
 #langsmithtracking
 #langchain_api_key=os.getenv("LANGCHAIN_API_KEY")
 #os.environ["LANGCHAIN_API_KEY"] = langchain_api_key
@@ -55,4 +55,5 @@ if user_input:
 elif user_input:
     st.warning("Please enter groq key")
 else:
+
     st.write("Please provide the user input")        
