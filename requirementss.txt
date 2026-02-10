@@ -32,3 +32,5 @@ tiktoken
 pinecone-notebooks
 pinecone-text
 pinecone
+groq
+
